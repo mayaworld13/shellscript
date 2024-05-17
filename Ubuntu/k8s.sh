@@ -14,3 +14,4 @@ sudo systemctl daemon-reload
 sudo systemctl enable crio --now
 sudo kubeadm config images pull
 sudo kubeadm init
+sudo chmod 644 /etc/kubernetes/admin.conf
