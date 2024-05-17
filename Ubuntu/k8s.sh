@@ -12,3 +12,5 @@ sudo apt-get update -y
 sudo apt-get install -y cri-o
 sudo systemctl daemon-reload
 sudo systemctl enable crio --now
+sudo kubeadm config images pull
+sudo kubeadm init
