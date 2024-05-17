@@ -17,3 +17,4 @@ sudo kubeadm init
 sudo chmod 644 /etc/kubernetes/admin.conf
 kubectl apply -f https://raw.githubusercontent.com/projectcalico/calico/v3.26.0/manifests/calico.yaml
 kubectl taint nodes --all node-role.kubernetes.io/control-plane-
+kubectl get pods
